@@ -11,31 +11,31 @@
       gtag('config', 'UA-107004784-1');
     </script>
  -->    
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/icon/favicon-16x16.png">
-    <link rel="manifest" href="icons/icon/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="<?php bloginfo('stylesheet_directory')?>/icons/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/favicon-16x16.png">
+    <link rel="manifest" href="<?php bloginfo('stylesheet_directory')?>/icons/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/icon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="<?php bloginfo('stylesheet_directory')?>/icons/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Vintix</title>
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 </head>
 <body>
@@ -46,7 +46,7 @@
           <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium" style="background:transparent;">
             <div class="columns small-8 large-3 ">
                 <ul class="menu">
-                   <img src="assets/vintixLogo.svg">
+                   <img src="<?php bloginfo('stylesheet_directory')?>/assets/vintixLogo.svg">
                 </ul>
             </div>
             <div>
@@ -78,9 +78,9 @@
      <div data-sticky-container class="show-for-medium" style="min-height:  120px;">
       <div class="top-bar headermenu" data-sticky data-options="marginTop: 0" id="example-menu">
         <div class="row">
-          <div class="columns small-5  large-3 show-for-medium"" style="width: 250px;">
+          <div class="columns small-5  large-3 show-for-medium" style="width: 250px;">
             <ul class="menu">
-               <img src="assets/vintixLogo.svg" style="max-width: 200px">
+               <img src="<?php bloginfo('stylesheet_directory')?>/assets/vintixLogo.svg" style="max-width: 200px">
             </ul>
           </div>
           <div class="columns small-12 medium-9 show-for-medium" >
@@ -96,7 +96,7 @@
     </div>
 
     <div>
-       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[assets/Slider1Mobile@2x.jpg, small], [assets/Slider1Tablet.jpg, medium], [assets/Slider1Desktop.jpg, large], [assets/Slider1DesktopHD.jpg, xlarge]">  
+       <img class="imgOrbit" style="width: 100%; height:auto;" data-interchange="[<?php bloginfo('stylesheet_directory')?>/assets/Slider1Mobile@2x.jpg, small], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1Tablet.jpg, medium], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1Desktop.jpg, large], [<?php bloginfo('stylesheet_directory')?>/assets/Slider1DesktopHD.jpg, xlarge]">  
     </div> 
            
     <div class="sections">
@@ -104,17 +104,17 @@
          <article id="article1">     
             <div class = "row container" id="card2Div" >
                 <div class="small-12 medium-6 columns card2-section align-self-middle show-for-small-only text-center ">
-                  <img width="auto" height="auto" src="assets/Check.svg"/>  
+                  <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/Check.svg"/>  
                   <h3>Donde sea que vayas, que tu estómago no te juegue una mala pasada</h3>
                   <p> Vintix, el antidiarreico de acción inmediata que hidrata y protege tu estómago</p>
                 </div>       
                 <div class="small-12 medium-6 columns card2">
                    <picture>
-                        <img width="auto" height="auto" src="assets/producto.png" style="padding-top: 100px;" />    
+                        <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/producto.png" style="padding-top: 100px;" />    
                     </picture>
                 </div>
                 <div class="small-12 medium-6 columns card2-section align-self-middle show-for-medium text-center">
-                  <img width="auto" height="auto" src="assets/Check.svg"/> 
+                  <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/Check.svg"/> 
                   <h3>Donde sea que vayas que tu estómago no te juegue una mala pasada</h3>
                   <p> Vintix, el antidiarreico de acción inmediata que hidrata y protege tu estómago</p>
                 </div>
@@ -127,7 +127,7 @@
               <div class="card columns">
                 <article>  
                   <picture>
-                    <img id="imageCard1" width="auto" height="auto" src="assets/item1.svg" />  
+                    <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/item1.svg" />  
                   </picture>
                     
                   <div class="card-section">
@@ -142,7 +142,7 @@
               <div class="card columns" style="max-width: 62.5rem">
                 <article>  
                   <picture>
-                    <img id="imageCard1" width="auto" height="auto" src="assets/item2.svg" />
+                    <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/item2.svg" />
                   </picture>
                     
                   <div class="card-section">
@@ -157,7 +157,7 @@
               <div class="card columns">
                 <article>  
                   <picture>
-                    <img id="imageCard1" width="auto" height="auto" src="assets/item3.svg"  />    
+                    <img id="imageCard1" width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/item3.svg"  />    
                   </picture>
                     
                   <div class="card-section">
@@ -175,7 +175,7 @@
             <div class = "row container" id="card2Div" style="min-height: 500px; " >       
                 <div class="small-12 medium-6 columns card2">
                    <picture>
-                        <img width="auto" height="auto" src="assets/producto2.png"/>    
+                        <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/producto2.png"/>    
                    </picture>
                 </div>
                 <div class="small-12 medium-6 columns card2-section align-self-middle text-center ">
@@ -192,13 +192,13 @@
           <h5 class="textSpecial" style=" line-height: 1.2;">Encuéntranos <br> en las principales  farmacias del país</h5>
             <div class="row medium-up-3 " >
               <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                 <img  width="auto" height="auto" src="assets/cruzVerde.jpg"  />  
+                 <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/cruzVerde.jpg"  />  
               </div>
               <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand" >
-                 <img  width="auto" height="auto" src="assets/ahumada.jpg"  />  
+                 <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/ahumada.jpg"  />  
               </div>
               <div class="small-12 medium-4 columns align-self-middle" id="imagesBrand">
-                 <img  width="auto" height="auto" src="assets/salco.png"  />  
+                 <img  width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/salco.png"  />  
               </div>
             </div> 
           </div>   
@@ -212,12 +212,12 @@
         <footer class="footer row align-justify">
             <div class="small-3 column hide-for-small-only">
                 <div class="row">
-                    <img src="assets/vintixLogo.svg" class="attachment-full size-full wp-post-image" alt="">          
+                    <img src="<?php bloginfo('stylesheet_directory')?>/assets/vintixLogo.svg" class="attachment-full size-full wp-post-image" alt="">          
                 </div>
                 <div class="row footerSocial">
                     <div class="small-12 medium-4 columns align-self-middle"">
                         <a href="https://www.facebook.com/VintixCl/"> 
-                            <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
+                            <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com" style="padding-bottom: 20px;"></a>
                     </div>
                     <div class="small-12 medium-8 columns align-self-middle text-align-center">
                         <p>Síguenos en Facebook</p>
@@ -234,6 +234,7 @@
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                         </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:elizabeth.berrios@animalcreativo.cl"">Contacto</a>
                         </ul>
                     </nav>
                     <hr size="8px" color="white">
@@ -245,7 +246,7 @@
                         <p> Teléfono:(2) 2340 5800 </p>
                     </div>
                     <div class="columns small-3">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt="">
                       </div>
                   </div>
                 </div>
@@ -257,7 +258,7 @@
     <div class="footer-container show-for-small-only">
         <footer class="footer row align-justify">
             <div class="columns small-12 show-for-small-only">
-                <img src="assets/vintixLogo.svg" class="attachment-full size-full wp-post-image" alt="">
+                <img src="<?php bloginfo('stylesheet_directory')?>/assets/vintixLogo.svg" class="attachment-full size-full wp-post-image" alt="">
             </div>
             <div class="columns small-12 show-for-small-only" id="menuFooterMobile">
                 <ul id="menu-footer-1" class="menu footermenu vertical menu" data-magellan>
@@ -267,6 +268,7 @@
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                     </li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:elizabeth.berrios@animalcreativo.cl"">Contacto</a>
                 </ul> 
             </div>
             <div class="columns small-12 footermenu show-for-small-only">
@@ -282,23 +284,23 @@
                         <div class="row">
                             <div class="small-12  columns" id="imgFacebookMobile">
                             <a href="https://www.facebook.com/VintixCl/"> 
-                                <img src="assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
+                                <img src="<?php bloginfo('stylesheet_directory')?>/assets/facebookLogo.svg" class="attachment-full size-full wp-post-image" alt="www.facebook.com">   
                              </a>
                         </div>
                     </div>
                 </div>
                 <div class="columns small-6 footermenu" id="imgLogoFooter2Mobile">
-                      <img src="assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt=""> 
+                      <img src="<?php bloginfo('stylesheet_directory')?>/assets/pharmaLogo.svg" class="attachment-full size-full wp-post-image" alt=""> 
                 </div>     
             </div>
         </footer>
     </div>
  
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/vendor/foundation.interchange.js"></script>
-    <script src="js/app.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/jquery.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/what-input.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/vendor/foundation.interchange.js"></script>
+    <script src="<?php bloginfo('stylesheet_directory')?>/js/app.js"></script>
   
 
 </body>
