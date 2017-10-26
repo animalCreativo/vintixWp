@@ -175,7 +175,7 @@
             <div class = "row container" id="card2Div" style="min-height: 500px; " >       
                 <div class="small-12 medium-6 columns card2">
                    <picture>
-                        <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/producto2.png"/>    
+                        <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/producto2.jpg"/>    
                    </picture>
                 </div>
                 <div class="small-12 medium-6 columns card2-section align-self-middle text-center ">
