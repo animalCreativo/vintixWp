@@ -83,7 +83,7 @@
                <img src="<?php bloginfo('stylesheet_directory')?>/assets/vintixLogo.svg" style="max-width: 200px">
             </ul>
           </div>
-          <div class="columns small-12 medium-9 show-for-medium" >
+          <div id="menuLeftPadding" class="columns small-12 medium-9 show-for-medium" >
             <ul class="menu" data-magellan id="menuListHeader">
                 <li><a href="#first" >¿Qué es Vintix?</a></li>
                 <li><a href="#second">Beneficios</a></li>

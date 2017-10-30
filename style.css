@@ -315,6 +315,9 @@ ul.menu.headermenu {
   #imgOrbit {
     content: src(); } }
 /* Large and up */
+@media screen and (min-width: 64em) {
+  #menuLeftPadding {
+    padding-left: 150px; } }
 /* Large only */
 
 /*# sourceMappingURL=style.css.map */
