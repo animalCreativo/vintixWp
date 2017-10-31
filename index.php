@@ -106,7 +106,7 @@
                 <div class="small-12 medium-6 columns card2-section align-self-middle show-for-small-only text-center ">
                   <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/Check.svg"/>  
                   <h3>Donde sea que vayas, que tu estómago no te juegue una mala pasada</h3>
-                  <p> Vintix, el antidiarreico de acción inmediata que hidrata y protege tu estómago</p>
+                  <p> Vintix, el antidiarreico de acción inmediata, que complementa la rehidratación y protege tu estómago</p>
                 </div>       
                 <div class="small-12 medium-6 columns card2">
                    <picture>
@@ -116,7 +116,7 @@
                 <div class="small-12 medium-6 columns card2-section align-self-middle show-for-medium text-center">
                   <img width="auto" height="auto" src="<?php bloginfo('stylesheet_directory')?>/assets/Check.svg"/> 
                   <h3>Donde sea que vayas que tu estómago no te juegue una mala pasada</h3>
-                  <p> Vintix, el antidiarreico de acción inmediata que hidrata y protege tu estómago</p>
+                  <p> Vintix, el antidiarreico de acción inmediata, que complementa la rehidratación y protege tu estómago</p>
                 </div>
             </div>
         </article> 
