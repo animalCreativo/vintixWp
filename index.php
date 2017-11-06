@@ -31,7 +31,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Vintix</title>
+    <meta name="description" content="Vintix, Antidiarreico probiótico que complementa la rehidratación y protege tu estómago.">
+    <meta name="keywords" content="tratamiento diarrea, cuadro diarreico, medicamento colitis aguda, colitis ulcerosa, remedio diarrea, hidratación flora intestinal">
+    <title>Vintix, Antidiarreico de acción inmediata</title>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/css/foundation-flex.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/style.css">
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory')?>/icons/foundation-icons.css">
@@ -65,7 +67,7 @@
                   <li><a class= "clickMenu" href="#third" >Puntos de Venta</a></li>
               </ul>
               <ul class=" dropdown menu" data-magellan data-dropdown-menu id="menuListHeader">           
-                  <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                  <li><a href="mailto:sbriones@pharmainvesti.cl">Contacto</a></li>
               </ul>
             </div>
           </div>
@@ -87,7 +89,7 @@
                 <li><a href="#first" >¿Qué es Vintix?</a></li>
                 <li><a href="#second">Beneficios</a></li>
                 <li><a href="#third" >Puntos de Venta</a></li>
-                <li><a href="mailto:elizabeth.berrios@animalcreativo.cl">Contacto</a></li>
+                <li><a href="mailto:sbriones@pharmainvesti.cl">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -233,7 +235,7 @@
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                         </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:elizabeth.berrios@animalcreativo.cl"">Contacto</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:sbriones@pharmainvesti.cl"">Contacto</a>
                         </ul>
                     </nav>
                     <hr size="8px" color="white">
@@ -267,7 +269,7 @@
                     </li>
                     <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="#third">Puntos de Venta</a>
                     </li>
-                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:elizabeth.berrios@animalcreativo.cl"">Contacto</a>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="mailto:sbriones@pharmainvesti.cl"">Contacto</a>
                 </ul> 
             </div>
             <div class="columns small-12 footermenu show-for-small-only">
